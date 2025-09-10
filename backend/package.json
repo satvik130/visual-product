@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "seed": "node seed.js"
+    "seed": "node seed.js",
+     "postinstall": "npm rebuild canvas"
   },
   "dependencies": {
     "@tensorflow-models/mobilenet": "^2.1.1",
